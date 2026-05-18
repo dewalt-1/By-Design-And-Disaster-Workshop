@@ -20,7 +20,11 @@ Keeping these separate makes your use of AI legible — to your supervisor, to p
 
 ## `01_Raw_Data/`
 
-Field notes, interview transcripts, photographs, sketches, primary documents. **The LLM does not modify anything here.** Treat the contents as read-only. If you transcribe an interview, the transcript lives here. If you photograph a building, the photo lives here.
+Anything goes here: field notes, sketches, site photos, audio clippings, raw transcripts, primary documents. **The LLM does not modify anything here.** Treat the contents as read-only. If you transcribe an interview, the transcript lives here. If you photograph a building, the photo lives here. If you record a 90-second clip in the field, the audio file lives here.
+
+The only filing convention this template asks of you is a **date-prefix** in filenames — `YYYY-MM-DD_*`. Everything after the date is your choice: `2026-04-12_site-entrance.jpg`, `2026-04-12_interview-A.wav`, `2026-04-12_interview-A.md` are all fine. A transcript that shares its audio file's stem (`interview-A`) keeps the link between them visible without needing a subfolder.
+
+**On sensitive material.** Anonymize identifying details — names, addresses, organisational affiliations — in both filenames and inside transcripts *before* you expose any of this to the model. Local LLMs run on your machine and do not phone home, but a copy you paste into a prompt becomes part of your interaction log in `02_LLM_Interactions/`, and that log is what you'll cite. The institutional guidelines in [`../references/reading-list.md`](../references/reading-list.md) (EU Living Guidelines, TH Köln, University of Basel) all converge on the same point: handle sensitive material with the same care you would in any non-AI workflow.
 
 You may quote from this folder when prompting the model, but the original stays untouched.
 

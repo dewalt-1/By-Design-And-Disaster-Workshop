@@ -18,3 +18,12 @@ Everything else under `local/` is gitignored. Drop real files into the three sub
 ## How to use this folder
 
 Read [`../templates/README.md`](../templates/README.md) first — the conventions there apply identically here. The difference is only that the files you put here are the actual research material, not a teaching example.
+
+## Adding a new subfolder
+
+If you need a fourth stage (say, `04_Sandbox/`), do two things:
+
+1. Create the folder and anchor it: `mkdir local/04_Sandbox && touch local/04_Sandbox/.gitkeep`
+2. Add a negation rule to [`../.gitignore`](../.gitignore) right next to the existing three: `!local/04_Sandbox/`
+
+Without the negation rule in `.gitignore`, the new folder's contents — including the `.gitkeep` — will be ignored, and the folder won't ship with the repo.

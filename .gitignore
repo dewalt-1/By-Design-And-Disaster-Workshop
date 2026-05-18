@@ -2,7 +2,8 @@
 docs/superpowers/
 
 # Facilitator-only local materials — track structure, ignore contents.
-# See local/README.md for the rationale.
+# .gitkeep anchors in subfolders un-ignore the directories.
+# See local/README.md for the rationale and how to add new subfolders.
 local/**
 !local/README.md
 !local/01_Raw_Data/

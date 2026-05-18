@@ -1,8 +1,14 @@
 # Internal planning — not for participants
 docs/superpowers/
 
-# Facilitator-only local materials
-local/
+# Facilitator-only local materials — track structure, ignore contents.
+# See local/README.md for the rationale.
+local/**
+!local/README.md
+!local/01_Raw_Data/
+!local/02_LLM_Interactions/
+!local/03_Synthesized_Text/
+!local/*/.gitkeep
 *.gguf
 
 # Source materials to anonymize before publishing

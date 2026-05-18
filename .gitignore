@@ -1,0 +1,23 @@
+# Internal planning — not for participants
+docs/superpowers/
+
+# Facilitator-only local materials
+local/
+*.gguf
+
+# Source materials to anonymize before publishing
+sources/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# PDF build artifacts (regenerate locally, don't commit unless intentional)
+prep/setup-guide.pdf

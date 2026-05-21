@@ -24,7 +24,7 @@ Download the installer for your OS from:
 
 **[https://lmstudio.ai](https://lmstudio.ai)**
 
-LM Studio is free, runs on macOS (Apple Silicon and Intel), Windows, and Linux, and does not require an account.
+LM Studio is free, runs on macOS (**Apple Silicon only** — M1/M2/M3/M4; Intel Macs are not supported), Windows, and Linux, and does not require an account.
 
 The installer is about 500 MB. Open it and follow the standard install prompts.
 
@@ -97,11 +97,6 @@ Load the model: click on it under **My Models** and hit **Load**. Before the fir
 - In the load dialog, ensure the **MLX** backend is selected. If MLX isn't available for your model, **Metal** is the fallback — also fine.
 - Unified Memory means GPU offload is automatic. **Leave the defaults** for layers / offload.
 - Set **Context Length** to **4096** initially. (You can raise it later if needed.)
-
-### macOS (Intel)
-
-- Older Intel Macs will run, but slowly. Use **Llama 3.2 3B** and expect tokens to trickle.
-- Backend: **Metal** (or CPU if Metal isn't offered).
 
 ### Windows (NVIDIA or AMD GPU)
 

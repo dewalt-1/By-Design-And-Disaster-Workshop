@@ -35,14 +35,15 @@ Can your laptop run a local LLM during the workshop? Almost certainly yes — bu
 ## How to check your OS version
 
 **macOS:** Apple menu → **About This Mac** → top of the window shows your version.
-- Minimum: **macOS 13 Ventura** (LM Studio supports older versions but performance degrades).
+- Required: **Apple Silicon** (M1 / M2 / M3 / M4). LM Studio does **not** support Intel Macs.
+- Minimum OS: **macOS 13 Ventura** (older versions may work but performance degrades).
 
 **Windows:** Press **Win + R**, type `winver`, press Enter.
 - Minimum: **Windows 10 (64-bit)**. Windows 11 recommended.
 
 ## If you're unsure
 
-Pick **Llama 3.2 3B (Q4_K_M)**. It works on almost any laptop made in the last 5 years, and you can always download a larger model after the workshop once you know what you're doing.
+Pick **Llama 3.2 3B (Q4_K_M)**. It works on any Apple Silicon Mac or Windows laptop with 8 GB+ RAM, and you can always download a larger model after the workshop once you know what you're doing.
 
 ## If your laptop genuinely can't run anything
 

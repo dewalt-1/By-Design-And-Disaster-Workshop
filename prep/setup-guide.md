@@ -79,8 +79,9 @@ You only need **one** of these. Pick based on your hardware.
 | **Qwen 2.5 7B Instruct** ⭐ | ~4.5 GB | Q4_K_M | **Recommended.** Strong multilingual support — directly relevant to the workshop's Global South / multilingual discussion. Excellent reasoning for its size. | `qwen2.5-7b-instruct` |
 | Llama 3.2 3B Instruct | ~2 GB | Q4_K_M | Lighter fallback for older or low-RAM laptops (8 GB RAM). Faster, but less capable for nuanced text. | `llama-3.2-3b-instruct` |
 | Gemma 2 9B Instruct | ~5.5 GB | Q4_K_M | Stronger reasoning if you have 16 GB+ RAM and want a more capable model. Slower than Qwen 7B. | `gemma-2-9b-it` |
+| Qwen2-VL 7B Instruct | ~5 GB | Q4_K_M | **Vision model — optional.** Required only if you'll use [`../prompts/photo-first-read.md`](../prompts/photo-first-read.md). Supports image input directly in LM Studio. MLX backend on Apple Silicon. | `qwen2-vl-7b-instruct` |
 
-If unsure, **download Qwen 2.5 7B Instruct (Q4_K_M)**.
+If unsure, **download Qwen 2.5 7B Instruct (Q4_K_M)**. Add Qwen2-VL 7B alongside it only if you plan to work with site photos during the hands-on segment — LM Studio shows an image-attach button in the chat composer when a vision-capable model is loaded; if you don't see it, double-check that the loaded model is the Qwen2-VL build, not the regular Qwen 2.5.
 
 > **What is a quant?** Quantization compresses the model's numerical weights to make it smaller and faster, with a small accuracy cost. `Q4_K_M` is "4-bit, K-quant, medium" — the most common sweet spot. Higher (Q5, Q6, Q8) means bigger and more accurate; lower (Q3, Q2) means smaller and rougher.
 

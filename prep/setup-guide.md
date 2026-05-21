@@ -72,7 +72,7 @@ If you want to be set up before you arrive, or you can't make it to Ben for the 
 
 ## Recommended models
 
-You only need **one** of these. Pick based on your hardware.
+Pick **one text model** based on your hardware. If you'll work with photos, also pick **one vision model**.
 
 | Model | Size | Quant | Why pick this | Search term in LM Studio |
 |---|---|---|---|---|

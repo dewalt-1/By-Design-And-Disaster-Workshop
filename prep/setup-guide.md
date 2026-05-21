@@ -134,7 +134,7 @@ Now we'll confirm two things: that it generates text, **and** that it works with
 3. Clear any default **system prompt** in the right-hand panel.
 4. Paste this system prompt (from [`prompts/reflective-assistant.md`](../prompts/reflective-assistant.md)):
 
-   > You are a critical design research companion. Do not generate creative ideas. Identify tensions in my raw notes and ask me questions that help me clarify my tacit knowledge.
+   > You are a critical design research companion. Do not generate creative ideas. Do not paraphrase or summarize what I share. Ask me questions that help me clarify my tacit knowledge.
 
 5. Send a first message:
 

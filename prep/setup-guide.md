@@ -72,15 +72,17 @@ If you want to be set up before you arrive, or you can't make it to Ben for the 
 
 ## Recommended models
 
-You only need **one** of these. Pick based on your hardware.
+Pick **one text model** based on your hardware. If you'll work with photos, also pick **one vision model**.
 
 | Model | Size | Quant | Why pick this | Search term in LM Studio |
 |---|---|---|---|---|
 | **Qwen 2.5 7B Instruct** ⭐ | ~4.5 GB | Q4_K_M | **Recommended.** Strong multilingual support — directly relevant to the workshop's Global South / multilingual discussion. Excellent reasoning for its size. | `qwen2.5-7b-instruct` |
 | Llama 3.2 3B Instruct | ~2 GB | Q4_K_M | Lighter fallback for older or low-RAM laptops (8 GB RAM). Faster, but less capable for nuanced text. | `llama-3.2-3b-instruct` |
 | Gemma 2 9B Instruct | ~5.5 GB | Q4_K_M | Stronger reasoning if you have 16 GB+ RAM and want a more capable model. Slower than Qwen 7B. | `gemma-2-9b-it` |
+| Moondream2 | ~2 GB | Q4_K_M | **Vision model — optional, lightweight.** Required only if you'll use [`../prompts/photo-first-read.md`](../prompts/photo-first-read.md). Designed for "look at image, answer briefly" — a good fit for the short labelled output the photo prompt asks for. Runs comfortably on 8 GB-RAM laptops. | `moondream2` |
+| Qwen2-VL 7B Instruct | ~5 GB | Q4_K_M | **Vision model — heavier alternative.** Stronger than Moondream on dense scenes, multilingual signage, and longer descriptions. Pick this only if Moondream feels too terse and you have the RAM. | `qwen2-vl-7b-instruct` |
 
-If unsure, **download Qwen 2.5 7B Instruct (Q4_K_M)**.
+If unsure, **download Qwen 2.5 7B Instruct (Q4_K_M)**. Add **Moondream2** alongside it only if you plan to work with site photos during the hands-on segment — LM Studio shows an image-attach button in the chat composer when a vision-capable model is loaded; if you don't see it, double-check that the loaded model is the vision build, not a text-only one.
 
 > **What is a quant?** Quantization compresses the model's numerical weights to make it smaller and faster, with a small accuracy cost. `Q4_K_M` is "4-bit, K-quant, medium" — the most common sweet spot. Higher (Q5, Q6, Q8) means bigger and more accurate; lower (Q3, Q2) means smaller and rougher.
 
@@ -134,7 +136,7 @@ Now we'll confirm two things: that it generates text, **and** that it works with
 3. Clear any default **system prompt** in the right-hand panel.
 4. Paste this system prompt (from [`prompts/reflective-assistant.md`](../prompts/reflective-assistant.md)):
 
-   > You are a critical design research companion. Do not generate creative ideas. Identify tensions in my raw notes and ask me questions that help me clarify my tacit knowledge.
+   > You are a critical design research companion. Do not generate creative ideas. Do not paraphrase or summarize what I share. Ask me questions that help me clarify my tacit knowledge.
 
 5. Send a first message:
 

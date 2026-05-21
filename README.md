@@ -36,7 +36,6 @@ To save time during the hands-on segment, please do the following ahead of the w
 
 - [ ] Read [`prep/hardware-check.md`](prep/hardware-check.md) and confirm your laptop meets the minimum specs.
 - [ ] Follow [`prep/setup-guide.md`](prep/setup-guide.md) to install **LM Studio** and download one recommended model (Ben will also bring USB sticks at the workshop as a fallback).
-- [ ] Complete the **pre-workshop questionnaire** linked from [`questionnaires/`](questionnaires/) — it takes about 5 minutes and feeds the research paper described below.
 - [ ] Bring your laptop, charger, and (optionally) a piece of your own research material — a paragraph of field notes, an interview excerpt — that you'd like to try working with locally.
 
 ## What's in this repo
@@ -45,14 +44,9 @@ To save time during the hands-on segment, please do the following ahead of the w
 |---|---|
 | [`prep/`](prep/) | LM Studio install, hardware check, recommended models |
 | [`templates/`](templates/) | A research folder template you can copy into your own project — raw data, LLM interactions, synthesized text |
-| [`prompts/`](prompts/) | System prompts for the "Reflective Assistant" and two variants |
+| [`prompts/`](prompts/) | Six system prompts — three reflective (Reflective Assistant, Field Note Rereader, Tacit to Text) and three first-read prompts by medium (photo, transcript, raw text) |
 | [`examples/`](examples/) | Short anonymized snippets to paste as context during the hands-on |
-| [`questionnaires/`](questionnaires/) | Pre / post / 1-week forms and the full set of items for transparency |
 | [`references/`](references/) | Reading list grouped by theme + institutional AI guidelines |
-
-## About the questionnaire
-
-Workshop participants are invited to complete three short questionnaires — before, immediately after, and one week after the session. The responses are the research instrument for a paper on how exposure to local LLMs shifts AI literacy, agency, and competency among design researchers. Results are intended for the DRS digital library. See [`questionnaires/`](questionnaires/) for full questions, opt-out information, and form links. Participation is voluntary.
 
 ## Facilitators
 

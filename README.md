@@ -2,33 +2,11 @@
 
 **Considerations for Ethical & Environmental Use of AI**
 
-A 90-minute hands-on workshop at *By Design and by Disaster 2026* (Free University of Bozen-Bolzano), for PhD and early-career design researchers.
-
----
-
 ## About this workshop
 
 AI is often framed as a threat to academic integrity, met with either strict countermeasures or quiet disregard. This workshop takes a different position: that mastering AI tools — especially those outside the control of the major cloud providers — gives researchers and students the means to deepen their work and explore alternative eco-social futures. Running large language models locally on your own machine brings privacy, a smaller ecological footprint, lower cost, and, foremost, greater control over your research tools. This matters most when working with sensitive materials — field notes, interview transcripts, proprietary or informalised practices — that should not be uploaded to third-party servers governed by lax data laws and increasingly authoritarian surveillance regimes.
 
 We approach writing in design research as a craft (Mills 1959; Sennett 2008) — an iterative practice that translates making, prototyping, and tacit, embodied knowledge (Polanyi 1966) into text-based epistemologies (Schön 1983). Local LLMs, when critically engaged with, can support this translation as **instruments, not authors**: helping clarify arguments, surface tensions in raw notes, and explore stylistic variation, without replacing your judgment (Neuburg, Quadflieg and Nestler 2020). The workshop introduces lightweight local models you can run on your own laptop, alongside the technical, ethical, and ecological dimensions of using them in academic work.
-
-## Schedule (90 minutes)
-
-| Time          | Segment                            | Lead          |
-|---------------|------------------------------------|---------------|
-| 00:00 – 00:10 | Welcome + Ethical & Environmental Context | Simon  |
-| 00:10 – 00:35 | Hands-on Technical Setup           | Ben           |
-| 00:35 – 00:45 | Local vs. Cloud                    | Ben           |
-| 00:45 – 01:10 | Research Workflows & Field Data    | Joint         |
-| 01:10 – 01:30 | Discussion & Experience Exchange   | Joint         |
-
-## Intended learnings
-
-1. Critical AI-literacy and competency
-2. Adapted prompting and workflow personal design research process
-3. Understanding of built-in biases and shortcomings of LLMs
-4. Critical assessment of the ethical and environmental effects of one's LLM use
-5. Transparent self-reflection and documentation of LLM use
 
 ## Before you arrive
 

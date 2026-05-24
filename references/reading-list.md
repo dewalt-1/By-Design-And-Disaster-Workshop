@@ -28,8 +28,3 @@ The references cited in the workshop call, grouped by theme, plus institutional 
 - European Commission, Directorate-General for Research and Innovation (2024) *Living Guidelines on the Responsible Use of Generative AI in Research*. https://research-and-innovation.ec.europa.eu/document/download/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en
 - TH Köln, Zentrum für Lehrentwicklung (n.d.) *Handreichung Studierende: Generative AI an der TH Köln*. https://www.th-koeln.de/mam/downloads/deutsch/hochschule/organisation/zle/thki_gpt-lab_handreichung_studierende_eng_final.pdf
 - University of Basel (2025) *Aus KI zitieren — Umgang mit KI-basierten Tools im Studium* (Guide to Citing AI). https://www.unibas.ch/dam/jcr:e46db904-bf0f-475a-98bc-94ef4d16ad2e/Leitfaden-KI-zitieren_v2.2.pdf
-
-## Methods (for the workshop's accompanying paper)
-
-- Angelov, D. (2020) "Top2Vec: Distributed Representations of Topics." *arXiv*. https://doi.org/10.48550/arXiv.2008.09470
-- McInnes, L., Healy, J. and Melville, J. (2020) "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction." *arXiv*. https://doi.org/10.48550/arXiv.1802.03426
